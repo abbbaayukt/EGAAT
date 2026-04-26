@@ -147,10 +147,8 @@ def compute_alpha(k_estimate: int, N: int) -> float:
     """
     rho = k_estimate / N
 
-    if rho < 0.05:
+    if rho < 0.20:
         return 1.00
-    elif rho < 0.20:
-        return 0.85
     elif rho < 0.40:
         return 0.65
     elif rho < 0.60:
