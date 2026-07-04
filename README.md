@@ -67,13 +67,3 @@ EGAAT/
 └── applications/        # Real-world use cases
 ```
 
-## Citation
-
-```bibtex
-@article{egaat2025,
-  title   = {Enhanced Grover's Algorithm with Adaptive Techniques for Multi-Target Database Search},
-  author  = {[Your Name]},
-  journal = {IEEE Transactions on Quantum Engineering},
-  year    = {2025}
-}
-```
